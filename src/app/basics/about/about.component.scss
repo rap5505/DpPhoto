@@ -1,0 +1,46 @@
+@import '../../../styles.scss';
+
+
+p {
+  color: $font;
+  font-size: 120%;
+  word-spacing: 2px;
+  font-family: 'Thasadith', sans-serif;
+  font-weight: 100;
+  word-wrap: inherit;
+  text-align: center;
+  padding-bottom: 5rem;
+  padding-right: 3rem;
+}
+
+.container {
+  padding: 4rem;
+}
+
+.navigation {
+  font-size: 500%;
+  padding-top: 3%;
+  color: $heading;
+  font-weight: bold;
+}
+
+h1 {
+  color: $heading;
+  padding-bottom: 10px;
+  text-align: center;
+}
+
+.card {
+  background: $body;
+  margin: 0;
+  border: 0px;
+}
+
+
+body {
+  background: $body;
+}
+
+.first {
+    border-bottom-left-radius: 5%;
+}

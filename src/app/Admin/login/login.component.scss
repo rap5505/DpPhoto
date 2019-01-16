@@ -1,0 +1,25 @@
+@import '../../../styles.scss';
+
+
+body {
+  background: $body;
+  height: 100vh;
+}
+
+form {
+  margin-bottom: 20%;
+  border-radius: 20%;
+  padding: 30px 50px;
+}
+
+p {
+  text-align: center;
+  padding-top: 5%;
+}
+
+
+.navigation {
+  font-size: 500%;
+  color: $heading;
+  font-weight: bold;
+}

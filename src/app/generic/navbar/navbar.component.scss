@@ -1,0 +1,33 @@
+@import '../../../styles.scss';
+
+
+.nav-link {
+  font-size: 18px;
+  font-family: Arial, Helvetica, sans-serif;
+  color: $font;
+}
+
+.nav-link:hover {
+  color: rgb(33, 70, 189);
+  font-weight: bold;
+}
+
+.home {
+  padding-left: 10%;
+}
+
+.navbar {
+  background: $body;
+}
+
+h1 {
+  font-family: 'Sacramento', cursive;
+  text-align: center;
+  font-weight: 900;
+  padding-top: 0%;
+  color: rgb(133, 58, 66);
+}
+
+.login {
+  margin-right: 10px;
+}

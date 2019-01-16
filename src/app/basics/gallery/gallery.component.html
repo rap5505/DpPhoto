@@ -1,0 +1,19 @@
+
+<body>
+  <p class="navigation">PHOTOS</p>
+  <div class="row">
+    <div class="container">
+      <button class="btn btn-md btn-secondary" [class.active]="fliterBy=='all'" (click)="fliterBy='all'">All</button>
+      <button class="btn btn-md btn-secondary" [class.active]="fliterBy=='light'" (click)="fliterBy='light'">Light</button>
+      <button class="btn btn-md btn-secondary" [class.active]="fliterBy=='people'" (click)="fliterBy='people'">People</button>
+      <button class="btn btn-md btn-secondary" [class.active]="fliterBy=='building'" (click)="fliterBy='building'">Buildings</button>
+      <button class="btn btn-md btn-secondary" [class.active]="fliterBy=='water'" (click)="fliterBy='water'">Water</button>
+    </div>
+    <ul class="thumbnailslist">
+      <li *ngFor="let image of (visibleImages | imageFilterPipe : fliterBy)">
+        <img src="{{image.url}}" class="thumbnail" width=400 height=250 alt="">
+      </li>
+    </ul>
+  </div>
+</body>
+<app-footer></app-footer>

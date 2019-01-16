@@ -1,0 +1,79 @@
+/* Text - Heading */
+@import '../../../styles.scss';
+
+
+
+body {
+  background: $body;
+}
+
+
+p {
+  color: $font;
+  font-size: 120%;
+  word-spacing: 2px;
+  font-family: 'Thasadith', sans-serif;
+  font-weight: 100;
+  word-wrap: inherit;
+  text-align: center;
+  padding-bottom: 5rem;
+  padding-right: 3rem;
+}
+
+
+.navigation {
+  font-size: 500%;
+  padding-top: 3%;
+  color: $heading;
+  font-weight: bold;
+}
+
+
+/* Images */
+
+
+// .images {
+//   padding-bottom: 30px;
+//   opacity: 0.90;
+//   height: 90%;
+//   width: 100%;
+//   height: auto;
+//   -webkit-transform: scale(1.03);
+//   -ms-transform: scale(1.03);
+//   transform: scale(1.03);
+//   -webkit-transition: -webkit-transform 0.5s, opacity 0.5s;
+//   transition: transform 0.5s, opacity 0.5s;
+// }
+
+
+// .images:hover {
+//   opacity: 1;
+//   -webkit-transform: scale(1.25);
+//   -ms-transform: scale(1.15);
+//   transform: scale(1.15);
+// }
+
+ul {
+  padding: 0;
+  width: 1250px;
+  margin: 20px auto
+}
+
+li {
+  display: inline;
+}
+
+.thumbnail {
+  margin: 6px;
+  transition: transform 0.5s, opacity 0.5s;
+}
+
+.thumbnail:hover {
+  transform: scale(1.20);
+}
+
+
+.btn-md {
+  margin: 5px;
+  background-color: maroon;
+}

@@ -1,0 +1,58 @@
+@import '../../../styles.scss';
+
+
+/* Grid */
+.grid {
+  display: grid;
+  grid-template-columns: 50% 50%;
+}
+
+.grid > div {
+  padding: 20px;
+}
+
+/* Body */
+
+body {
+  background: $body;
+}
+
+.card {
+  background: $body;
+  margin: 0;
+  border: 0px;
+}
+
+.row {
+  padding-top: 50px;
+}
+
+/* Typography */
+
+h1 {
+  color: $heading;
+  padding-bottom: 10px;
+  text-align: center;
+}
+
+p {
+  color: $font;
+  font-size: 120%;
+  word-spacing: 2px;
+  font-family: 'Thasadith', sans-serif;
+  font-weight: 100;
+  word-wrap: inherit;
+  text-align: center;
+  padding-bottom: 2rem;
+}
+
+.container {
+  padding: 4rem;
+}
+
+.navigation {
+  font-size: 500%;
+  padding-top: 3%;
+  color: $heading;
+  font-weight: bold;
+}
